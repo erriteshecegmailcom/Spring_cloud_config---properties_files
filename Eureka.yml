@@ -29,7 +29,7 @@ eureka:
       defaultZone: http://Eureka-Cluster-instance2.com:5557/eureka/,http://Eureka-Cluster-instance3.com:5558/eureka/
 ---
 spring:
-  profiles: Eureka2
+  profiles: EurekaClusterInstance-2
   application:
     name: Eureka
 server:
@@ -44,7 +44,7 @@ eureka:
       defaultZone: http://Eureka-Cluster-instance1.com:5556/eureka/,http://Eureka-Cluster-instance3.com:5558/eureka/
 ---
 spring:
-  profiles: Eureka3
+  profiles: EurekaClusterInstance-3
   application:
     name: Eureka
 server:
