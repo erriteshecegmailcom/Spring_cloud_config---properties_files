@@ -1,1 +1,22 @@
+spring:
+  profiles: default
+  application:
+    name: CallDetailsMS
+server:
+  port: 8100
 
+---
+spring:
+  profiles: dev
+  application:
+    name: CallDetailsMS
+server:
+  port: 8101
+
+---
+spring:
+  profiles: stage
+  application:
+    name: CallDetailsMS
+server:
+  port: 8102
